@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -n "Entrer le nom du fichier : "
+echo -n "Entrez le nom du fichier : "
 read fichier
 if [ -f "$fichier" ]; then
 echo "Le fichier '$fichier' existe."
